@@ -1,8 +1,8 @@
 import React from 'react';
-import sanfran from './image2vector.svg';
-import homeicon from './home.png';
+import sanfran from './images/image2vector.svg';
+import homeicon from './images/home.png';
 import { Link } from 'react-router-dom';
-import './App.css';
+import './css/App.css';
 
 function Nav(){
     return (

@@ -1,0 +1,34 @@
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+nav{
+  display:flex;
+  min-height: 5vh;
+  background-color: #69A2B0;
+}
+ ul {
+  list-style: none;
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+li{
+  display: inline;
+  float:right;
+  padding: 19px;
+  background-color: #69A2B0;
+  color: #00171F;
+}
+.linkER{
+  text-decoration: none;
+  color: #F3F8F2;
+}
+li:hover{
+  color:#F3F8F2;
+}
+.homeIcon{
+  width:22px;
+}

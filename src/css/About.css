@@ -1,0 +1,88 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    height: auto;
+    width: auto\9;
+  }
+
+.aboutHeader{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 70px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    background-color:#DEE2D6 ;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.aboutHeaderSub{
+    text-align: center;
+    padding-top: 40px;
+    font-weight:lighter;
+    font-family: 'Manrope', sans-serif;
+    background-color:#DEE2D6 ;
+}
+.aboutProfile{
+    padding-top: 40px;
+    text-align: left;
+    background-color:#DEE2D6 ;
+    display: block;
+}
+.jsLogo{
+    width:10%;
+    padding-bottom:1000px;
+    position: relative;
+    -webkit-animation:  2s 1  normal ease-out;
+    animation: jslogo 2s 1  normal ease-out;
+}
+.reactLogo{
+    width:10%;
+    padding-left: 10px;
+    padding-bottom:600px;
+    position: relative;
+    -webkit-animation:  2s 1  normal ease-out;
+    animation: reactlogo 2s 1  normal ease-out;
+}
+@-webkit-keyframes jslogo {
+    0% {
+      top:0px;
+      left:0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+  
+  @keyframes jslogo {
+    0% {
+      top:0px;
+      left:-500px;
+    }
+    100% {
+      top: 0px;
+      left: 10px;
+    }
+  }
+  @-webkit-keyframes reactlogo {
+    0% {
+      top:0px;
+      left:0px;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+    }
+  }
+  
+  @keyframes reactlogo {
+    0% {
+      top:0px;
+      left:-500px;
+    }
+    100% {
+      top: 0px;
+      left: 10px;
+    }
+  }
