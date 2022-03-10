@@ -1,0 +1,162 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.projsTitle {
+  position: absolute;
+  top: 5em;
+  left: 37em;
+}
+.tmasTitle {
+  position: absolute;
+  top: 12em;
+  left: 5em;
+}
+.tmasButton {
+  background-image: url("../images/tmasthumb.png");
+  position: absolute;
+  left: 9em;
+  bottom: 30em;
+  height: 40em;
+  width: 80em;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+}
+.tmasButton:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(184, 207, 240, 0.842);
+}
+.tmasButton:hover:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url("../images/tmasthumb.png");
+  position: absolute;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+}
+
+.tmasProjDesc {
+  background: #69a2b0;
+  box-shadow: 5px 5px 10px;
+  border-radius: 10px 20px;
+  padding: 20px 20px 20px 20px;
+  position: absolute;
+  bottom: 40em;
+  left: 50em;
+}
+.tmasProjDesc p {
+  background: #69a2b0;
+}
+.techText {
+  color: rgb(196, 196, 196);
+}
+.gitTmasLink {
+  background-image: url("../images/git-icon.png");
+  background-size: cover;
+  min-width: 3em;
+  min-height: 3em;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  position: absolute;
+  left: 107em;
+  bottom: 43em;
+  cursor: pointer;
+}
+.extTmasLink {
+  background-image: url("../images/link-icon.png");
+  background-size: cover;
+  min-width: 3em;
+  min-height: 3em;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  position: absolute;
+  left: 111em;
+  bottom: 43em;
+  cursor: pointer;
+}
+.grocText {
+  position: absolute;
+  top: 40em;
+  left: 80em;
+}
+.grocButton {
+  background-image: url("../images/grocerypos-thumb.png");
+  position: absolute;
+  bottom: -20em;
+  left: 96em;
+  height: 40em;
+  width: 80em;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+}
+.grocButton:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(184, 207, 240, 0.842);
+}
+.grocButton:hover:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url("../images/grocerypos-thumb.png");
+  position: absolute;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+}
+.grocProjDesc {
+  background: #69a2b0;
+  box-shadow: 5px 5px 10px;
+  border-radius: 10px 20px;
+  padding: 20px 20px 20px 20px;
+  position: absolute;
+  bottom: -3em;
+  left: 48em;
+}
+.grocProjDesc p {
+  background: #69a2b0;
+}
+.gitGrocLink {
+  background-image: url("../images/git-icon.png");
+  background-size: cover;
+  min-width: 3em;
+  min-height: 3em;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  position: absolute;
+  left: 60em;
+  bottom: -8em;
+  cursor: pointer;
+}
+.extGrocLink {
+  background-image: url("../images/link-icon.png");
+  background-size: cover;
+  min-width: 3em;
+  min-height: 3em;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  position: absolute;
+  left: 64em;
+  bottom: -8em;
+  cursor: pointer;
+}

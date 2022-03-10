@@ -1,128 +1,124 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    height: auto;
-    width: auto\9;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: auto;
+  width: auto\9;
 }
-
+.signImg {
+  background: none;
+  position: relative;
+  min-height: 50%;
+  max-width: 30%;
+  margin-top: -250px;
+}
 .homeHeader {
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    padding-top: 70px;
-    word-spacing: 10px;
-    letter-spacing: 10px;
-    background-color: #DEE2D6;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  padding-top: 70px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 .homeHeaderSub {
-    text-align: center;
-    padding-top: 40px;
-    font-weight: lighter;
-    font-family: 'Manrope', sans-serif;
-    background-color: #DEE2D6;
+  text-align: center;
+  padding-top: 5px;
+  font-weight: lighter;
+  font-family: "Manrope", sans-serif;
 }
 
 .homeProfile {
-    padding-top: 40px;
-    text-align: left;
-    background-color: #DEE2D6;
-    display: block;
+  padding-top: 40px;
+  text-align: left;
+  display: block;
 }
 
-.cutoutCam{
-    width:70%;
+.cutoutCam {
+  width: 70%;
 }
-.jsTextReveal{
-    left:200px;
+.jsTextReveal {
+  left: 200px;
 }
 .jsLogo {
-    width: 10%;
-    padding-bottom: 1000px;
-    position: relative;
-    -webkit-animation: 2s 1 normal ease-out;
-    animation: jslogo 2s 1 normal ease-out;
+  width: 10%;
+  padding-bottom: 1500px;
+  position: relative;
+  -webkit-animation: 2s 1 normal ease-out;
+  animation: jslogo 2s 1 normal ease-out;
 }
 
 .reactLogo {
-    width: 10%;
-    animation-delay: 1.5s;
-    visibility: hidden;
-    animation-fill-mode: forwards;
-    /* padding-left: 10px;
-    padding-bottom: 600px;
-    position: relative;
-    -webkit-animation: 2s 1 normal ease-out;
-    animation: reactlogo 2s 1 normal ease-out;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;*/
+  width: 10%;
+  animation-delay: 1.5s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+  padding-bottom: 900px;
 }
 
-
 @-webkit-keyframes jslogo {
-    0% {
-        opacity: 0;
-        top: 0px;
-        left: 0px;
-    }
+  0% {
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+  }
 
-    100% {
-        opacity: 1;
-        top: 0px;
-        left: 0px;
-    }
+  100% {
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+  }
 }
 
 @keyframes jslogo {
-    0% {
-        opacity:0;
-        top: 0px;
-        left: -500px;
-    }
+  0% {
+    opacity: 0;
+    top: 0px;
+    left: -500px;
+  }
 
-    100% {
-        opacity: 1;
-        top: 0px;
-        left: 10px;
-    }
+  100% {
+    opacity: 1;
+    top: 0px;
+    left: 10px;
+  }
 }
 
 @-webkit-keyframes reactlogo {
-    0% {
-        visibility: visible;
-        opacity: 0;
-        top: 0px;
-        left: -500px;
-    }
+  0% {
+    visibility: visible;
+    opacity: 0;
+    top: 0px;
+    left: -500px;
+  }
 
-    100% {
-        visibility: visible;
-        opacity: 1;
-        top: 0px;
-        left: 0px;
-    }
+  100% {
+    visibility: visible;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+  }
 }
 
 @keyframes reactlogo {
-    0% {
-        visibility: visible;
-        opacity: 0;
-        top: 0px;
-        left: -500px;
-    }
+  0% {
+    visibility: visible;
+    opacity: 0;
+    top: 0px;
+    left: -500px;
+  }
 
-    100% {
-        visibility: visible;
-        opacity: 1;
-        top: 0px;
-        left: 10px;
-    }
-  
+  100% {
+    visibility: visible;
+    opacity: 1;
+    top: 0px;
+    left: 10px;
+  }
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }

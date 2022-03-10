@@ -1,0 +1,87 @@
+* {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: auto;
+  width: auto\9;
+}
+
+h3 {
+  padding-top: 30px;
+  font-weight: lighter;
+}
+.titleStuff {
+  position: absolute;
+  left: 70em;
+  top: 8em;
+}
+.body {
+  top: 200px;
+}
+.contButtons {
+  padding-top: 200px;
+  display: inline-flex;
+  background: #13293d;
+}
+.contButtons a {
+  color: black;
+}
+.emailIcon {
+  height: auto;
+  width: auto;
+  max-width: 30%;
+}
+.phoneIcon {
+  height: auto;
+  width: auto;
+  max-width: 30%;
+}
+.gitIcon {
+  height: auto;
+  width: auto;
+  max-width: 30%;
+}
+.linkedInIcon {
+  height: auto;
+  width: auto;
+  max-width: 30%;
+}
+.emailButton {
+  align-items: center;
+}
+.emailButton li {
+  background: #13293d;
+}
+.phoneButton {
+  align-items: center;
+}
+.phoneButton li {
+  background: #13293d;
+}
+.gitButton {
+  align-items: center;
+}
+.gitButton li {
+  background: #13293d;
+}
+.linkedInButton {
+  align-items: center;
+}
+.linkedInButton li {
+  background: #13293d;
+}
+.iconButton {
+  border: none;
+  cursor: pointer;
+  padding-left: -5px;
+  padding-right: -5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.iconButton a {
+  color: white;
+}
+/* .iconButton:hover {
+  background-color: #76afbd !important;
+} */
